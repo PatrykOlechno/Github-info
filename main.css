@@ -31,3 +31,9 @@ body{
     order: 1;
     margin: 0 20px 20px 20px;
  }
+ a{
+     text-decoration: none;
+ }
+ a:visited{
+     text-decoration: none;
+ }
