@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ .github-info{
+     display: flex;
+     background-color: #ddd;
+     align-items: center;
+ }
+ .github-info img {
+     height: 150px;
+     border-radius: 100px;
+     border: 4px solid white;
+     margin: 20px;
+     order: 0;
+ }
+ .basic-info{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .advanced-info{
+     flex-grow: 1;
+     text-align: center;
+ }
+ .repos{
+    font-size: 4em;;
+ }
+ .nick{
+    order: 1;
+    margin: 0 20px 20px 20px;
+ }
